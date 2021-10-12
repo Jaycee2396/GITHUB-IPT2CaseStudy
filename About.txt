@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<!Author: TIPON. JOHN CARLO S. , WMA- 4C.>
+<head>
+	<style>
+		table{
+			
+			border-spacing: 4px;
+			border-style: outset;
+		}
+		tr{
+			background-color: #0B0B3B;
+		}
+		td{
+			padding-right: 20px;
+			padding-left: 20px;
+			border-style: ridge;
+		}
+		th{
+			text-align: center;
+			background-color: #ad2d9c;
+			font-family: "Times New Roman";
+			font-size: 40px;
+			color: #2A0A1B;
+			border-style: ridge;
+		}
+		input[type=text]{
+			background-color: #98a7ff;
+ 			padding-right: 200px;
+ 			border-style: ridge;
+		}
+		input[type=password]{
+			background-color: #98a7ff;
+			padding-right: 200px;
+			border-style: ridge;
+		}
+		input[type=file]{
+			background-color: #98a7ff;
+ 		}
+		textarea{
+			background-color: #98a7ff;
+			font-family: "Times New Roman";
+			font-size: 14px;
+		}
+		button{
+			background-color: #ffff99;
+			padding: 8px 59px;
+			border-style: groove;
+		}
+		select{
+			background-color: #98ff98;
+ 			padding-right: 315px;
+ 		}
+	</style>
+</head>
+	<body>
+		<form>
+			<center><table>
+				<tr>
+					<th colspan = "2">
+					APPLICATION FORMS
+					</th>
+				</tr>
+				<tr>
+					<td>Enter Name</td>
+					<td><input type = "text" name = "name"></td>
+				</tr>
+				<tr>
+					<td>Enter Password</td>
+					<td><input type = "password" name = "password"></td>
+				</tr>
+				<tr>
+					<td>Enter Address</td>
+					<td><textarea rows="5" cols="50" name="description"></textarea></td>
+				</tr>
+				<tr>
+					<td>Select Game</td>
+					<td>
+						<input type="checkbox">
+						<label for="vehicle1"> Hockey</label><br>
+						<input type="checkbox">
+						<label for="vehicle2"> Football</label><br>
+						<input type="checkbox">
+						<label for="vehicle3"> Badminton</label><br>
+						<input type="checkbox">
+						<label for="vehicle1"> Cricket</label><br>
+						<input type="checkbox">
+						<label for="vehicle1"> Volleyball</label><br>
+					</td>
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td>
+						<input type="radio" name="gender" value="male">
+						<label>Male</label>
+						<input type="radio" name="gender" value="female">
+						<label>Female</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Select your age</label>
+					</td>
+					<td><select name="dropdwon">
+						<option value="Select" >Select</option>
+						<option value="1" >1</option>
+						<option value="2" >2</option>
+						<option value="3" >3</option>
+						<option value="4" >4</option>
+						<option value="5" >5</option>
+						<option value="6" >6</option>
+						<option value="7" >7</option>
+						<option value="8" >8</option>
+						<option value="9" >9</option>
+						<option value="10" >10</option>
+						<option value="11" >11</option>
+						<option value="12" >12</option>
+						<option value="13" >13</option>
+						<option value="14" >14</option>
+						<option value="15" >15</option>
+						<option value="16" >16</option>
+						<option value="17" >17</option>
+						<option value="18" >18</option>
+						<option value="19" >19</option>
+						<option value="20" >20</option>
+						<option value="21" >21</option>
+						<option value="22" >22</option>
+						<option value="23" >23</option>
+						<option value="24" >24</option>
+						<option value="25" >25</option>
+						<option value="26" >26</option>
+						<option value="27" >27</option>
+						<option value="28" >28</option>
+						<option value="29" >29</option>
+						<option value="30" >30</option>
+						<option value="31" >31</option>
+						<option value="32" >32</option>
+						<option value="33" >33</option>
+						<option value="34" >34</option>
+						<option value="35" >35</option>
+						<option value="36" >36</option>
+						<option value="37" >37</option>
+						<option value="38" >38</option>
+						<option value="39" >39</option>
+						<option value="40" >40</option>
+						</select>
+					</td>
+		<tr>
+		<tr>
+			<td colspan="2">
+				<center><input type="file" id="myfile" name="myfile"></center>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<center>
+				<button type="input" name="clickme" value="Click Me!">Click Me</button> 
+				<button type="input" name="reset" value="Reset">Reset</button> 
+				<button type="input" name="submitform" value="Submit Form">Submit Form</button>
+				</center>
+			</td>
+		</tr>
+			</center></table>
+		</form>
+	</body>
+<<<<<<< HEAD
+</html>
+=======
+</html> 
+>>>>>>> 5a52590f95b7de1772ec1d2b2de30cb2552627d9
