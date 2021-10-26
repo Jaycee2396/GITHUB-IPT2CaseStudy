@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta charset="viewport" content="width=device-width">
+        <title>Shiminuki | YOUTUBE CHANNEL</title>
+        <iframe width="0" height="0" src="https://www.youtube.com/embed/1mjlM_RnsVE"></iframe>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    </head>
+    <body>
+  <div  class="topnav" id="myTopnav" style="background-color: black;>
+	<style="color: #cc8b65;"><a href="#home" class="active"><i class="fab fa-youtube"></i></i> Shiminuki</a>
+    <a href="Registration.html" class="reg"><i class="fas fa-sign-in-alt"></i> Sign-up</a>
+    <a href="#search" class="reg"><i class="fas fa-search"></i> Search</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+<div class="hero-image" style="background-color:red;>
+    <div class="hero-text">
+    <center><h2>ADVENTURE QUEST WORLD</h2><center>
+      <div class="social-media">
+      <button onclick="location.href='https://www.youtube.com/user/RyuyashaX'" type="button"> 
+        <i class="fab fa-youtube"></i>
+	<b> YOUTUBE CHANNEL</button>
+      </div>
+    </div>
+  </div>
+<div style="background-color: black; class="text-container">
+<center><h1 style="color: #cc8b65;" dic title="SHIMINUKI AQW | Youtube"><span> Artix Entertainment </span></h1><center>
+</div>
+<section class="columns" style="background-color: black;>
+	<div class="column">
+    <center><iframe width="50%" height="400" src="https://www.youtube.com/embed/4Hb5pl7lt9w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><center>	
+    <div class="videotext">
+	<h4 style="color: #cc8b65;">AQW Dragon of Time Overview</h4>
+    </div><br>
+	</div><br>
+	<div style="color: #cc8b65;" class="column">
+   <center> <iframe width="50%" height="400" src="https://www.youtube.com/embed/bSaVlsVmEug" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><center>
+    <div class="videotext">
+    AQW Yami no Ronin Overview
+  </div><br>
+	</div>
+  <div style="color: #cc8b65;" class="column">
+   <center><iframe width="50%" height="400" src="https://www.youtube.com/embed/WPS5TGr3bn0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><center>
+    <div class="videotext">
+     AQW Barber Overview
+  </div><br>
+	</div>
+</section>
+<section class="columns" style="background-color: black;>
+	<div class="column">
+   <center><iframe width="50%" height="400" src="https://www.youtube.com/embed/6AYKoROdZGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><center>
+    <div class="videotext">
+   <h4 style="color: #cc8b65;"> AQW BladeMaster/SwordMaster Assassin Overview</h4>
+  </div><br>
+	</div><br>
+	<div style="color: #cc8b65;" class="column">
+    <center><iframe width="50%" height="400" src="https://www.youtube.com/embed/wBKlu-UoC8o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><center>
+    <div class="videotext">
+    AQW Northlands Monk Overview
+  </div><br>
+	</div>
+  <div style="color: #cc8b65;" class="column">
+    <center><iframe width="50%" height="400" src="https://www.youtube.com/embed/9goUkhM4KOw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><center>
+    <div class="videotext">
+    AQW HighSeas Commander Overview 
+  </div><br>
+	</div>
+</section style="background-color: black;>
+<br/>
+<br/>
+<br/>
+<footer id="footersection" style="background-color: black;">
+  <div class="footer-container" style="background-color: black;">
+    <div class="left-col">
+      <center><img src="https://archive.artix.com/themes/artix.com/cmsImages/AQW-HangingOut.png" alt="" class="logo"></center>
+      <center><div class="social-media">
+	  <button onclick="location.href='https://www.facebook.com/mrlnvlsqz'" type="button"><a style="color: blue;href= "#">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+		<button onclick="location.href='https://twitter.com/mrlnvlsqz'" type="button"><a style="color: blue;href= "#">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+		<button onclick="location.href='https://www.instagram.com/junniedad/'" type="button"><a style="color: blue; href= "#">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+		<button onclick="location.href='https://www.youtube.com/user/RyuyashaX'" type="button"><a style="color: blue;href= "#" >
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        
+      </div></center>
+      <center><h4 style="color: #cc8b65;">A© 2020 WEB DEVELOPMENT PROJECT | Shiminuki Youtube Channel |  All Rights Reserved</h4></center>
+    </div>
+
+  </div>
+</footer>
+
+
+</body>
+</html>
