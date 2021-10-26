@@ -1,0 +1,88 @@
+<! DOTCYPE>
+<html>
+<head>
+	<link rel="stylesheet" href="css.css"/>
+	<title>User Form</title>
+	
+	<style>
+		table th, td, tr{
+		border:3 px solid black;
+		
+		}
+	</style>
+</head>
+	<body>
+	<div>
+	<form>	<table style="width:50%" border="2">	
+	<tr>	
+		<th colspan="2"><h2>USER FORM</h2></th>
+	</tr>
+	
+	<tr>
+		<td>Enter Name:</td>
+		<td><input type= "text" name = "Enter Name"/></td>
+	</tr>
+	
+	<tr>
+		<td>Enter Password</td>
+		<td><input type = "Password" name= "Enter Password"/></td>
+	</tr>
+	
+	<tr>
+		<td>Enter Address</td>
+		<td><input type = "text" name= "Enter Address"/></td>
+	</tr>
+	</form>
+	
+	<form>
+	<tr>
+		<td>Select Game:</td>
+		<td><input type = "checkbox" name ="Game"/>Hockey&nbsp;
+		<br><input type = "checkbox" name = "Game"/>football&nbsp;
+		<br><input type = "checkbox" name = "Game"/>Badminton&nbsp;
+		<br><input type = "checkbox" name = "Game"/>Cricket&nbsp;
+		<br><input type = "checkbox" name = "Game"/>Volleyball&nbsp;</td>
+		
+	</tr>
+	</form>
+	<form>
+	<tr>
+		<td>Gender:</td>
+		<td><input type = "radio" name="Male" value= "on">Male
+			<input type = "radio" name="Female" value= "on">Female</td>
+	</tr>
+	</form>
+	
+	<form>
+	<tr>
+		<td>Select Your age:</td>
+			<td><select type="dropdown">
+			<br><option value= "age"/>select&nbsp;
+			<br><option value= "age"/>18&nbsp;
+			<br><option value= "age"/>19&nbsp;
+			<br><option value= "age"/>20&nbsp;
+			<br><option value= "age"/>21&nbsp;
+			<br><option value= "age"/>22&nbsp;
+			<br><option value= "age"/>23&nbsp;
+			<br><option value= "age"/>24&nbsp;
+			<br><option value= "age"/>25&nbsp;</td>
+        </select>
+	</tr>
+	</form>
+	
+	<form>
+	<tr>
+		<td style="text-align:center"colspan="2"><input type= "file" name="file upload" accept="image/*"/></td>
+	</tr>
+	</form>
+	
+	<form>
+	<tr>	
+		<td style="text-align:center"colspan="2"><input type= "button" name= "click me" value="click me"/>
+		<input type= "reset" name= "reset" value="reset"/>
+		<input type= "Submit" name= "Submit" value="Submit"/></p></td>
+	</tr>
+	</form>
+	
+	</body>
+</html>
