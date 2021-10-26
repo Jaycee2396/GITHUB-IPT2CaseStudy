@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <style>
+		    table, th, td{
+			    border: 1px solid black;
+			    border-collapse: collapse;
+			    background-color: burlywood;
+		    }
+		    th, td{
+			    padding: 15px;
+			    text-align: left;
+		    }
+	    </style>
+</head>
+    <body>
+        <caption><center><h1>Personal Information Form</h1></center></caption>
+        <table style = "width: 77%" align = "center">
+    <form action = "Personal Information Sheet.html" method="GET">
+        <tr>
+            <th>
+              Prefix
+                <input type="text" name="prefix"/> 
+	            First Name
+	              <input type="text" name="fname"/> 
+	            Initial
+	              <input type = "text" name = "initial"/> 
+	            Last Name
+	              <input type="text" name ="lastname" id="lastname"/> 
+            </th>
+        </tr>
+        <tr>
+            <th>
+              Home Number
+                <input type="number" name="homenumber" id="homenumber"/> 
+	            Cellphone Number
+	              <input type="number" name="cellphonenumber" id="cellphonenumber"/> 
+            </th>
+        </tr>
+        <tr>
+            <th>
+              House No., Street, Barangay
+                <input type="text" name="housestreetbarangay" id= "housestreetbarangay"/>
+	            Municipality, Province
+	              <input type="text" name="municipalityprovince" id="municipalityprovince"/> 
+	            Zip Code
+	              <input type="number" name="zipcode" id="zipcode"/> 
+            </th>
+            </tr>
+        <tr>
+            <th>
+              Gender
+                <input type="radio" name="gender" id="male" value = "Male"/>Male
+	               <input type="radio" name="gender" id="female"/>Female
+            </th>
+        </tr>
+        <tr>
+            <th>
+              Civil Status
+                <input type="radio" name="civilstatus" id="civilstatus" value="single"/>Single
+	              <input type="radio" name="civilstatus" id="civilstatus" value="married"/>Married
+            </th>
+        </tr>
+        <tr>
+            <th>
+              Month of Birth
+               <select name="birthmonth" id="birthmonth" >
+		          <option value="January">January</option>
+		          <option value="February">February</option>
+		          <option value="March">March</option>
+		          <option value="April">April</option>
+		          <option value="May">May</option>
+		          <option value="June">June</option>
+		          <option value="July">July</option>
+		          <option value="August">August</option>
+		          <option value="September">September</option>
+		          <option value="October">October</option>
+		          <option value="November">November</option>
+		          <option value="December">December</option>
+		          </select>
+            </th>
+        </tr>
+        <tr>
+            <th>
+              Short Biography
+                <textarea name= "sbio" id="sbio"></textarea>
+            </th>
+        </tr>
+        <tr>
+            <th><center><button type= "submit" value="submit" onclick="getData()">Submit</button></center>
+            </th>
+        </tr>
+    </form>
+    
+    </body>
+</html>
